@@ -1,0 +1,2 @@
+quarantine-pypi-alpha==1.0.0
+quarantine-pypi-beta==1.0.0

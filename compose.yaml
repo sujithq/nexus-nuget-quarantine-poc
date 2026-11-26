@@ -1,0 +1,16 @@
+services:
+  nexus:
+    image: sonatype/nexus3:3.70.1
+    ports:
+      - "${NEXUS_HTTP_PORT:-8081}:8081"
+    environment:
+      INSTALL4J_ADD_VM_PARAMS: >-
+        -Xms1g
+        -Xmx1g
+        -XX:MaxDirectMemorySize=1g
+    volumes:
+      - nexus-data:/nexus-data
+    restart: unless-stopped
+
+volumes:
+  nexus-data:

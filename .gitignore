@@ -1,0 +1,12 @@
+.env
+artifacts/
+**/bin/
+**/obj/
+**/node_modules/
+**/__pycache__/
+**/.nuget/
+*.nupkg
+*.snupkg
+*.whl
+*.tgz
+.DS_Store

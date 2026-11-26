@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
+    <RestoreIgnoreFailedSources>false</RestoreIgnoreFailedSources>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="NexusQuarantinePoc.Alpha" Version="1.0.0" />
+    <PackageReference Include="NexusQuarantinePoc.Beta" Version="1.0.0" />
+  </ItemGroup>
+</Project>

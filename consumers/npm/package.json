@@ -1,0 +1,9 @@
+{
+  "name": "nexus-quarantine-poc-npm-consumer",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "nexus-quarantine-poc-alpha": "1.0.0",
+    "nexus-quarantine-poc-beta": "1.0.0"
+  }
+}
